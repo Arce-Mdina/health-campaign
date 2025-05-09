@@ -50,10 +50,10 @@ const Facts = () => {
         isOpen={showOverlay} 
         onClose={() => setShowOverlay(false)} 
         title="Type 2 Diabetes"
-        children={
+        content={
           <div>
-            "Type 2 diabetes is a condition that causes the level of 
-            glucose (sugar) in the blood to become higher than normal." (HSE)
+            Type 2 diabetes is a condition that causes the level of 
+            glucose (sugar) in the blood to become higher than normal. (HSE)
           </div>
         }
       />
@@ -62,7 +62,7 @@ const Facts = () => {
         isOpen={showOverlay2} 
         onClose={() => setShowOverlay2(false)} 
         title="What happens in the body"
-        children={
+        content={
           <div>
             When diagnosed with Type 2 diabetes, one's muscle, fat, and liver cells do not respond correctly
             to insulin. As a result, glucose does not get into these cells for energy.
@@ -85,7 +85,7 @@ const Facts = () => {
         isOpen={showOverlay3} 
         onClose={() => setShowOverlay3(false)} 
         title="Insulin"
-        children={
+        content={
           <div>
             Insulin is a naturally occuring hormone one's pancreas makes. 
             This hormone is responsible for moving glucose from the blood into cells.

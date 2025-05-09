@@ -4,10 +4,10 @@ interface OverlayProps {
   isOpen: boolean;
   onClose: () => void;
   title: string;
-  children: ReactNode;
+  content: ReactNode;
 }
 
-const Overlay: React.FC<OverlayProps> = ({ isOpen, onClose, title, children }) => {
+const Overlay: React.FC<OverlayProps> = ({ isOpen, onClose, title, content }) => {
   const overlayRef = useRef<HTMLDivElement>(null);
 
   const handleClickOutside = (e: MouseEvent) => {
@@ -35,7 +35,7 @@ const Overlay: React.FC<OverlayProps> = ({ isOpen, onClose, title, children }) =
       >
         <h2 className="text-3xl font-bold mb-4">✨ {title}</h2>
         <div className="text-lg">
-          {children}
+          {content}
         </div>
       </div>
     </div>
