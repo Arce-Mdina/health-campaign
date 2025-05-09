@@ -2,10 +2,8 @@
 
 import { useState } from 'react';
 
-import Accordion from "./ui/Accordion"
 import Overlay from "./ui/Overlay";
 
-import ScrollOverlay from './ui/ScrollOverlay';
 
 const items = [
   { title: 'Section 1', content: <p>Content for section 1.</p> },
