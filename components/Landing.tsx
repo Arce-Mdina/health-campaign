@@ -10,17 +10,6 @@ import Image from "next/image";
 
 const Landing = () => {
 
-  // const gradientRef = useRef<HTMLDivElement>(null);
-
-  // useEffect(() => {
-  //   if (gradientRef.current) {
-  //     gsap.fromTo(
-  //       gradientRef.current,
-  //       { width: '0%' },
-  //       { width: '100%', duration: 1.2, ease: 'power2.out' }
-  //     );
-  //   }
-  // }, []);
 
   useEffect(() => {
 

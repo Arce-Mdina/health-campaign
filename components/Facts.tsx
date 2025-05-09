@@ -5,19 +5,11 @@ import { useState } from 'react';
 import Overlay from "./ui/Overlay";
 
 
-const items = [
-  { title: 'Section 1', content: <p>Content for section 1.</p> },
-  { title: 'Section 2', content: <p>Content for section 2.</p> },
-  { title: 'Section 3', content: <p>Content for section 3.</p> },
-];
-
 const Facts = () => {
 
   const [showOverlay, setShowOverlay] = useState(false);
   const [showOverlay2, setShowOverlay2] = useState(false);
   const [showOverlay3, setShowOverlay3] = useState(false);
-
-  const [open, setOpen] = useState(false);
 
   return (
     <div id="about" className="w-[100%] mt-[10px] p-5 flex flex-col justify-center items-center">
